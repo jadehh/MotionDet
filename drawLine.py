@@ -10,6 +10,6 @@ if __name__ == '__main__':
     capture = cv2.VideoCapture("/home/jade/Downloads/2019-09-17_18-53-01-060_1080_QSCPDX67SX/2019-09-17_18-50-47.mp4")
     while True:
         ret,frame = capture.read()
-        img = drawLine(frame,10,30, 0, 460, 900, 720)
+        img = drawLine(frame,10,30, 0, 400, 900, 720)
         cv2.imshow("result",img)
         cv2.waitKey(0)
